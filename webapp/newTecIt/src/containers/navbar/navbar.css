@@ -1,0 +1,142 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 10%; 
+    padding-right: 10%;
+    border: 0.5px solid transparent; 
+    transition: border-color 0.2s, box-shadow 0.2s, border 0.1s;
+    height: 5%; 
+    width: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar.scrolled {
+    border-color: #007bff;
+    background: linear-gradient(90deg, rgba(111, 168, 217, 1) 0%, rgba(47, 128, 237, 1) 50%, rgba(0, 82, 165, 1) 100%);}
+
+.navbar:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .title {
+    display: flex;
+    align-items: center;
+    margin-right: auto; 
+}
+
+.title  {
+    width: 150px;
+    margin-left: 10px; 
+    padding-left: 0;
+    padding-bottom: 2%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 2%;
+}
+
+.navbar ul li a:hover {
+    color: #00BFFF;
+}
+
+.slidebar{
+    position: fixed;
+    top: 0;
+    right:0;
+    height: 100vh;
+    width: 250px;
+    z-index:999;
+    background-color:rgba(255, 255, 255, 0);
+    box-shadow: -10px 0 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start center;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+    background:  linear-gradient(90deg, rgba(111, 168, 217, 1) 0%, rgba(47, 128, 237, 1) 50%, rgba(0, 82, 165, 1) 100%);;
+    
+  
+    
+}
+
+.slidebar li{
+    width: 100%;
+    list-style: none;
+    margin-bottom: 10%;
+    margin-top: 20%;
+   
+}
+.slidebar a{
+    width:100%;
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+   
+}
+.menu{
+    display: block;
+}
+
+@media(max-width:800px){
+    .hideonphone{
+        display: none;
+
+    }
+    menu{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .slidebar{
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+}
+@media (max-width:992px){
+    menu{
+        display: none;
+    }
+}
+@media (width: 1200px) {
+    .menu {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+     .menu  {
+        display: none;
+    }
+}

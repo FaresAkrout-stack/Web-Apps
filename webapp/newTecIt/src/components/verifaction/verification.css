@@ -1,0 +1,25 @@
+#mailSec {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Secmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#Secmail a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#Secmail a:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,19 @@
+.logoutContainer {
+    text-align: center;
+
+}
+.logoutContainer p{
+    font-size: 50px;
+}
+.logoutContainer button{
+    border-radius: 5%;
+    background-color: rgba(26, 147, 224, 1);
+    cursor: pointer;
+    width: 150px;
+    height: 54px;
+    margin-top: 5%;
+    color: aliceblue;
+}
+.logoutContainer button:hover {
+    background-color: rgba(26, 147, 224, 0.8);
+  }

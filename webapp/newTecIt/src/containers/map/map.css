@@ -1,0 +1,81 @@
+.map-conatianer iframe{
+    border: 1px solid;
+    border-radius: 1%;
+    height: 472px; 
+    width: 1054px;
+    
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 1%;
+    color:  aquamarine;
+    padding-top: -5%;
+    
+    
+
+    
+}
+.map-conatianer h2 {
+    margin-bottom: 2%;
+    text-align: center;
+    color: #0A77BD;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    font-size: 28px;
+    padding-top: 5%;
+}
+.map-conatianer {
+    transition: box-shadow 0.3s ease; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background: linear-gradient(180deg, #ffffff 0%, #ffffff 30%, #e6f7ff 100%);
+    color: aquamarine;
+    margin-top: -10%;
+    padding-bottom: 5%;
+    
+    
+}
+.map-conatianer:hover{
+
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
+@media (max-width: 400px){
+    .map-conatianer iframe{
+        height: 250px; 
+        width: 250px;
+    }
+}
+@media (max-width: 300px){
+    .map-conatianer iframe{
+        height: 500px; 
+        width: 500px;
+    }
+}
+@media (max-width: 992px){
+    .map-conatianer iframe{
+        height: 400px; 
+        width: 800px;
+    }
+}
+@media (max-width: 810px){
+    .map-conatianer iframe{
+        height: 390px; 
+        width: 780px;
+    }
+}
+@media (max-width: 768px){
+    .map-conatianer iframe{
+        height: 400px; 
+        width: 620px;
+    }
+}
+@media (max-width: 600px){
+    .map-conatianer iframe{
+        height: 360px; 
+        width: 450px;
+    }
+}
+ @media (max-width: 550px){
+    .map-conatianer iframe{
+        height: 350px; 
+        width: 420px;
+    
+    }
+ }

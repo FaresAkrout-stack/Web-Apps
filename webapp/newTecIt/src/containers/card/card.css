@@ -1,0 +1,123 @@
+.card-container {
+    position: relative; 
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 0 20px 20px 20px; 
+    margin: 10px;
+    text-align: center;
+    width: 250px; 
+    height: 350px;
+    background: linear-gradient(180deg, #ffffff 0%, #ffffff 30%, #e6f7ff 100%); 
+}
+
+
+.card-container img {
+    display: block;  
+    width: calc(100% + 40px); 
+    margin: 0 -20px 0 -20px; 
+    padding: 0;      
+    box-sizing: content-box; 
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 200px;
+    position: relative; 
+    background-color: aliceblue; 
+}
+
+.icon-container {
+    position: absolute;
+    top: 200px;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 40px; 
+    height: 40px; 
+    background-color: aliceblue; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.entete {
+    margin-top: 20px; 
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    color: #000000;
+    
+}
+
+.description {
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5%;
+    
+}
+
+
+@media (max-width: 992px){
+    .card-container {
+        width: 220px; 
+    
+    }
+
+}
+@media (max-width: 810px){
+    .card-container {
+        width: 180px; 
+    }
+    .entete{
+        font-size:20px ;
+    }
+    .description {
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 768px){
+    .card-container {
+        width: 175px; 
+    }
+    .entete{
+        font-size:18px ;
+    }
+    .description {
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px){
+    .card-container {
+        width: 160px; 
+    }
+    .entete{
+        font-size:16px ;
+    }
+    .description {
+        font-size: 12px;
+    }
+}
+@media (max-width: 400px){
+    .card-container {
+        width: 90px; 
+        
+    }
+    .entete{
+        font-size:14px ;
+    }
+    .description {
+        font-size: 12px;
+    }
+}
+@media (max-width: 550px){
+    .card-container {
+        width: 140px; 
+    }
+    .entete{
+        font-size:16px ;
+    }
+    .description {
+        font-size: 12px;
+    }
+}

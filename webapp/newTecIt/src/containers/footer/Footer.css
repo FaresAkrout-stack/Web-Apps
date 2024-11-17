@@ -1,0 +1,46 @@
+.footer-container {
+    background: linear-gradient(90deg, rgba(111, 168, 217, 1) 0%, rgba(47, 128, 237, 1) 50%, rgba(0, 82, 165, 1) 100%);
+
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container img {
+    width: 120px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-container p, 
+.footer-container h3 {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.footer-container h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer-container h3 .icon {
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.footer-container .mail {
+    margin-bottom: 5px;
+    color: #ffffff;
+    
+}
+
+.footer-container .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ffffff;
+}

@@ -1,0 +1,180 @@
+.container-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aquamarine;
+    margin: 10% auto; 
+    background: linear-gradient(180deg, #ffffff 0%, #ffffff 30%, #e6f7ff 100%); 
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: -8%;
+}
+
+.container-con:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /
+}
+
+.container-con h2{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size:2rem ;
+    font-weight:700;
+    color: #0056b3;
+    margin-top: 5%;
+    padding-top: 5%;
+    
+    margin-bottom: 1.5%;
+    width: 100%;
+}
+.container-con p{
+    font-weight:600;
+    font-size:27px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    margin-bottom: 3%;
+    white-space: nowrap;
+}
+.container-con span{
+    font-weight:600;
+    font-size:25px ;
+    font-family: 'Inter', sans-serif;
+    color: #0056b3;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+}
+.container-con span:hover{
+    color: #00BFFF;
+    
+    
+    cursor: pointer;
+}
+.container-con button{
+    align-self: center;
+    border:none;
+    border-radius: 25px;
+    background-color: #0A77BD;
+    color: #fff;
+    width: 180px;
+    height: 57px;
+    top: 153px;
+    bottom: 506px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.container-con button:hover{
+    background-color: #00BFFF;
+}
+
+@media (max-width: 400px){
+    .container-con h2{
+        font-size:1.6rem ;
+        
+    }
+    .container-con button{
+        width: 120px;
+        height: 39px;
+    }
+    .container-con span  {
+        font-size: 12px;
+    } 
+     .container-con p  {
+        font-size: 10px;}}
+        @media (max-width: 300px){
+            .container-con h2{
+                font-size:1.4rem ;
+                
+            }
+            .container-con button{
+                width: 110px;
+                height: 38px;
+            }
+            .container-con span  {
+                font-size: 10px;
+            } 
+             .container-con p  {
+                font-size:8px;}
+        }
+    
+
+
+        @media (max-width: 992px){
+            .container-con h2{
+                font-size:2rem ;
+                
+            }
+            .container-con button{
+                width: 140px;
+                height: 44px;
+            }
+            .container-con span  {
+                font-size: 20px;
+            } 
+             .container-con p  {
+                font-size: 24px;}
+        
+        }
+        @media (max-width: 810px){
+            .container-con h2{
+                font-size:1.6rem ;
+                
+            }
+            .container-con button{
+                width: 160px;
+                height: 52px;
+            }
+            .container-con span  {
+                font-size: 20px;
+            } 
+             .container-con p  {
+                font-size: 19px;}
+        
+        }
+        @media (max-width: 768px){
+            .container-con h2{
+                font-size:1.7rem ;
+                
+            }
+            .container-con button{
+                width: 160px;
+                height: 52px;
+            }
+            .container-con span  {
+                font-size: 18px;
+            } 
+             .container-con p  {
+                font-size: 17px;}
+        }
+        @media (max-width: 600px){
+            .container-con h2{
+                font-size:1.6rem ;
+                
+            }
+            .container-con button{
+                width: 140px;
+                height: 44px;
+            }
+            .container-con span  {
+                font-size: 17px;
+            } 
+             .container-con p  {
+                font-size: 16px;}
+        }
+     
+        @media (max-width: 550px){
+            .container-con h2{
+                font-size:1.4rem ;
+                
+            }
+            .container-con button{
+                width: 130px;
+                height: 40px;
+            }
+            .container-con span  {
+                font-size: 14px;
+            } 
+             .container-con p  {
+                font-size: 12px;}
+        }
